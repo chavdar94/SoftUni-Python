@@ -1,0 +1,6 @@
+.py
+- - - directory_traversal.py
+.test1
+- - - test1
+.txt
+- - - report.txt
