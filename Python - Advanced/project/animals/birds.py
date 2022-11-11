@@ -1,4 +1,4 @@
-from animals.animal import Bird
+from project.animals.animal import Bird
 
 
 class Owl(Bird):
