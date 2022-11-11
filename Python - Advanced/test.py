@@ -1,6 +1,6 @@
 
 
-from project.animals.birds import Hen
+from project.birds import Hen
 from project.food import Fruit, Meat, Vegetable
 
 hen = Hen("Harry", 10, 10)
