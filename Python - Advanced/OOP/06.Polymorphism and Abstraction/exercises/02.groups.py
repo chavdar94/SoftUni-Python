@@ -3,10 +3,10 @@ class Person:
     def __init__(self, name: str, surname: str):
         self.name = name
         self.surname = surname
-    
+
     def __add__(self, other):
         return Person(self.name, other.surname)
-    
+
     def __repr__(self) -> str:
         return f'{self.name} {self.surname}'
 
@@ -16,20 +16,19 @@ class Group:
     def __init__(self, name: str, people: list):
         self.name = name
         self.people = people
-    
+
     def __len__(self) -> int:
         return len(self.people)
-    
+
     def __add__(self, other):
         people = self.people + other.people
         return Group(f'{self.name} {other.name}', people)
-    
+
     def __repr__(self):
         return f'Group {self.name} with members {", ".join(str(name) for name in self.people)}'
-    
+
     def __getitem__(self, key):
         return f'Person {key}: {str(self.people[key])}'
-
 
 
 p0 = Person('Aliko', 'Dangote')
