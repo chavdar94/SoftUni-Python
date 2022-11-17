@@ -92,9 +92,9 @@ class HorseRaceApp:
 
         if jockey in race.jockeys:
             return f'Jockey {jockey_name} has been already added to the {race_type} race.'
-        else:
-            race.jockeys.append(jockey)
-            return f'Jockey {jockey_name} added to the {race_type} race.'
+
+        race.jockeys.append(jockey)
+        return f'Jockey {jockey_name} added to the {race_type} race.'
 
     def start_horse_race(self, race_type: str):
 
