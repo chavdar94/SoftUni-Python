@@ -22,4 +22,5 @@ while command != 'end of shift':
         total_income += current_price
         print(f'{find_name}: {find_product} - {current_price:.2f}')
     command = input()
+
 print(f'Total income: {total_income:.2f}')

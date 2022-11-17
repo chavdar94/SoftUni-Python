@@ -77,10 +77,10 @@ class HorseRaceApp:
 
         if jockey.horse:
             return f'Jockey {jockey_name} already has a horse.'
-        else:
-            jockey.horse = horse
-            horse.is_taken = True
-            return f'Jockey {jockey_name} will ride the horse {horse.name}.'
+
+        jockey.horse = horse
+        horse.is_taken = True
+        return f'Jockey {jockey_name} will ride the horse {horse.name}.'
 
     def add_jockey_to_horse_race(self, race_type: str, jockey_name: str):
 
