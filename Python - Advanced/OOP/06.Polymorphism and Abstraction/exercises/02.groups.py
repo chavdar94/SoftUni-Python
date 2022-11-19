@@ -7,7 +7,7 @@ class Person:
     def __add__(self, other):
         return Person(self.name, other.surname)
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         return f'{self.name} {self.surname}'
 
 
@@ -17,7 +17,7 @@ class Group:
         self.name = name
         self.people = people
 
-    def __len__(self) -> int:
+    def __len__(self):
         return len(self.people)
 
     def __add__(self, other):
