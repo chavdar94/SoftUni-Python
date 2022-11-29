@@ -7,7 +7,7 @@ class CatTests(TestCase):
     def setUp(self):
         self.cat = Cat('TestCat')
     
-    def test_correct_initializaton(self):
+    def test_correct_initialization(self):
         self.assertEqual('TestCat', self.cat.name)
         self.assertFalse(self.cat.fed)
         self.assertFalse(self.cat.sleepy)
