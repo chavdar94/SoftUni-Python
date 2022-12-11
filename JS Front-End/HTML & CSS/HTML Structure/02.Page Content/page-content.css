@@ -1,0 +1,21 @@
+section header h1 {
+    font-size: 28px;
+}
+
+section header p {
+    font-style: italic;
+}
+
+.outer-p {
+    font-size: 24px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+section {
+    margin-left: 20px;
+}
