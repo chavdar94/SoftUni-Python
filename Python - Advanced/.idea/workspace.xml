@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb04f75-4aee-49fd-b5fe-4dfb5bb982aa" name="Changes" comment="" />
+    <list default="true" id="fcb04f75-4aee-49fd-b5fe-4dfb5bb982aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2ISnqvLK2jrNCbXK807SNjCV2m8" />
   <component name="ProjectViewState">
@@ -18,6 +23,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/choko/Desktop/SoftUni/Python - Advanced",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -30,6 +36,10 @@
       <option name="presentableId" value="Default" />
       <updated>1670184047899</updated>
       <workItem from="1670184048731" duration="9000" />
+      <workItem from="1670756838963" duration="32000" />
+      <workItem from="1670756877519" duration="27000" />
+      <workItem from="1670756912006" duration="16000" />
+      <workItem from="1670756933863" duration="67000" />
     </task>
     <servers />
   </component>
