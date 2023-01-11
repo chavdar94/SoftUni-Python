@@ -1,4 +1,4 @@
-Python - Advanced/.idea/misc.xml
-Python - Advanced/.idea/Python - Advanced.iml
-Python - Advanced/.idea/workspace.xml
-Python - Advanced/.idea/workspace.xml
+*.xml
+*.iml
+.idea
+.vscode
