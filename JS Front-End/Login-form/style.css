@@ -1,0 +1,62 @@
+#sign-up {
+    position: relative;
+    left: -3.7em;
+}
+
+.input i {
+    position: relative;
+    left: 30px;
+    top: 2px;
+}
+
+input {
+    padding-left: 35px;
+    border-radius: 25px;
+    height: 2.5em;
+    width: 20em;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+
+.input {
+    padding-bottom: 15px;
+}
+
+button {
+    position: relative;
+    top: 1em;
+    border-radius: 25px;
+    width: 10em;
+    height: 3em;
+    background: rgb(171, 255, 231);
+    border: none;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.signup-cont {
+    position: relative;
+    left: -4.3em;
+    top: -2.7em;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.inp-text {
+    font-size: 1.5em;
+    font-family: Orienta;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 22em;
+    height: 32em;
+    background-image: linear-gradient(to bottom right, rgb(88, 141, 196), rgb(104, 196, 196));
+    border-radius: 25px;
+}
