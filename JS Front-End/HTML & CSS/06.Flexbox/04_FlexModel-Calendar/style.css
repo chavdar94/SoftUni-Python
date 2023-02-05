@@ -2,18 +2,27 @@ html {
     box-sizing: border-box
 }
 
+body {
+    height: 70vh;
+}
+
 div,
 section {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 div {
     max-width: 65vw;
+    gap: 0px;
 }
 
 span {
     border: 1px solid black;
+    text-align: center;
+    height: 25%;
 }
 
 .notes {
