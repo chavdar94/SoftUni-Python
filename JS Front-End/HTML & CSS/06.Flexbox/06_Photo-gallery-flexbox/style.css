@@ -1,9 +1,13 @@
+body {
+  margin: 100px 0px;
+  background-color: lightgray;
+}
+
 body,
 ul,
 li {
   display: flex;
   justify-content: center;
-  margin: 40px 0px;
 }
 
 .gallery ul {
@@ -13,6 +17,7 @@ li {
 }
 
 .gallery ul li {
+  background-color: #fff;
   border: 10px solid black;
   padding: 20px;
   justify-content: center;
