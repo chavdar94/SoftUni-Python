@@ -2,11 +2,12 @@ body,
 ul,
 li {
   display: flex;
+  justify-content: center;
 }
 
 .gallery ul {
   list-style: none;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
   gap: 30px;
 }
