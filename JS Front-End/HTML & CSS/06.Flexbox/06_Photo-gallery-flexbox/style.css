@@ -5,9 +5,8 @@ li {
   justify-content: center;
 }
 
-.gallery ul {
+.gallery ul {.
   list-style: none;
-  /* justify-content: space-evenly; */
   flex-wrap: wrap;
   gap: 30px;
 }
