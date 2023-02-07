@@ -5,7 +5,7 @@ li {
   justify-content: center;
 }
 
-.gallery ul {.
+.gallery ul {
   list-style: none;
   flex-wrap: wrap;
   gap: 30px;
