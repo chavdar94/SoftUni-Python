@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(238, 238, 238);
+  width: 80vw;
+  margin: 0 auto;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  padding: 5px;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+a {
+  color: rgb(0, 153, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+header > p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.quote-align {
+  display: inline-block;
+  width: 50%;
+}
+
+blockquote {
+  display: inline-block;
+  width: 35%;
+  font-style: italic;
+  border-left: 3px solid gray;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  color: gray;
+  position: relative;
+  bottom: 20px;
+}
+
+blockquote p:nth-child(2) {
+  text-align: right;
+}
+
+.first-img {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 15%;
+}
+
+.second-img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 15%;
+}
+
+main {
+  flex: 1 0 65%;
+}
+
+aside {
+  flex: 1 0 15%;
+}

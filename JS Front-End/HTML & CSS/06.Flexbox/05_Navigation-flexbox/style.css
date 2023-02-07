@@ -1,0 +1,31 @@
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    height: 20vh;
+}
+
+header p {
+    font-size: 40px;
+    font-weight: bold;
+    flex-basis: 80%;
+    margin-top: 70px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    flex-basis: 20%;
+}
+
+header ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding-right: 40px;
+    justify-content: flex-end
+}

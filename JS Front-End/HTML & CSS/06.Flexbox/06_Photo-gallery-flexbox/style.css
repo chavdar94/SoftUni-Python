@@ -1,0 +1,24 @@
+body,
+ul,
+li {
+  display: flex;
+}
+
+.gallery ul {
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery ul li {
+  border: 10px solid black;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: inset 0px 0px 10px black;
+}
+
+.gallery ul li img {
+  aspect-ratio: calc(9 / 16);
+  object-fit: contain;
+}
