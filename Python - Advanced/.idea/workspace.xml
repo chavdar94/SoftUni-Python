@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb04f75-4aee-49fd-b5fe-4dfb5bb982aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/05.Position &amp; Grid/04_Navigation-float/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/05.Position &amp; Grid/04_Navigation-float/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/06.Flexbox/04_FlexModel-Calendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/06.Flexbox/04_FlexModel-Calendar/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/06.Flexbox/04_FlexModel-Calendar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JS Front-End/HTML &amp; CSS/06.Flexbox/04_FlexModel-Calendar/style.css" afterDir="false" />
+    <list default="true" id="fcb04f75-4aee-49fd-b5fe-4dfb5bb982aa" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/Python - Advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python - Advanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +30,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/choko/Desktop/hackerrank",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/choko/Desktop/SoftUni/Python - Advanced&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python - Advanced" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +94,14 @@
       <workItem from="1673206432618" duration="14000" />
       <workItem from="1673209124755" duration="1000" />
       <workItem from="1675783119220" duration="44000" />
+      <workItem from="1676415321226" duration="13000" />
+      <workItem from="1676415340359" duration="173000" />
+      <workItem from="1676415519688" duration="15000" />
+      <workItem from="1676415542965" duration="187000" />
+      <workItem from="1676415756411" duration="166000" />
+      <workItem from="1676415931333" duration="38000" />
+      <workItem from="1676415977974" duration="85000" />
+      <workItem from="1676416071242" duration="41000" />
     </task>
     <servers />
   </component>
@@ -80,5 +118,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python___Advanced$test.coverage" NAME="test Coverage Results" MODIFIED="1676415835125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

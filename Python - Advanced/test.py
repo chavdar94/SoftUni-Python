@@ -1,12 +1,3 @@
-a = {
-    'Risotto': 1,
-    'Soup': 1
-}
+import calendar
 
-b = {
-    'Risotto': 2,
-    'Cake': 1
-}
-
-a.update(b)
-print(a)
+print(calendar.day_name[2])
