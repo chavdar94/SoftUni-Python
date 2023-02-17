@@ -1,0 +1,71 @@
+@media screen and (max-width: 800px) {
+  .menu,
+  .nav-options {
+    flex-direction: column;
+  }
+
+  .nav-options {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  header div {
+    background-image: url("../image/dancing-girl.png");
+  }
+
+  .trainings {
+    flex-direction: column;
+  }
+
+  .trainings div {
+    width: 50%;
+  }
+
+  .instructors-pic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .classes li {
+    width: 45%;
+  }
+
+  .getInTouch {
+    flex-direction: column;
+  }
+
+  .map img {
+    position: static;
+    transform: translate(0px, 0px);
+    margin-bottom: 28px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .map:after {
+    display: none;
+  }
+
+  .site-footer .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "dance dance"
+      "sitemap contacts";
+  }
+
+  .site-footer .about {
+    grid-area: dance;
+  }
+
+  .site-footer .sitemap {
+    grid-area: sitemap;
+  }
+
+  site-footer .contacts {
+    grid-area: contacts;
+  }
+}

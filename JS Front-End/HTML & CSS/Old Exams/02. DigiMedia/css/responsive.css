@@ -1,0 +1,68 @@
+@media screen and (max-width: 599px) {
+  #home .container .navbar {
+    justify-content: center;
+    margin-left: 50px;
+    padding-right: 0px;
+  }
+
+  #home .hero > img {
+    display: none;
+  }
+
+  #home .container-fluid .container > h1 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  #home .container-fluid .container > p {
+    text-align: center;
+  }
+
+  #home .container-fluid .container .hero-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  #about-us .container-fluid .container .row {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-us .container-fluid .container .row .hero-btns {
+    margin-bottom: 50px;
+  }
+
+  #about-us .container-fluid .container .row .service-box {
+    text-align: start;
+  }
+
+  #about-us .container-fluid .container .row .col-sm-6 {
+    max-width: 100%;
+  }
+
+  .about {
+    margin-bottom: 100px;
+  }
+
+  .about .container .row > .col-12 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #contact-us .container {
+    text-align: center;
+  }
+
+  #contact-us .container .row > .col-12 > .contact-btn {
+    display: none;
+  }
+
+  footer .row .col-12 .contact-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
