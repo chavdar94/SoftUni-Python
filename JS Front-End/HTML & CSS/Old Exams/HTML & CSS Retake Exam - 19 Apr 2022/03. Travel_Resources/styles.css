@@ -272,16 +272,6 @@
   padding-bottom: 6px;
 }
 
-/* .home-descriptions {
-  width: 1024px;
-  height: 32px;
-  display: flex;
-  align-self: center;
-  margin-top: 12px;
-  align-items: flex-start;
-  justify-content: space-between;
-} */
-
 .home-images .home-container > img {
   border-radius: 50%;
 }
