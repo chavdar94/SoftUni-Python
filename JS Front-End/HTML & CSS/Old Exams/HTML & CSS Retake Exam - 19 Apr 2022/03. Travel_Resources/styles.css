@@ -61,7 +61,7 @@
   width: 250px;
   height: 220px;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   align-items: flex-start;
   background-image: linear-gradient(
     to top,
