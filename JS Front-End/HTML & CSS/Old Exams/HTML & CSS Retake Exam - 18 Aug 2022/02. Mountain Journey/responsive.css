@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header nav > img {
+    margin-right: 12px;
+  }
+
+  header nav > ul {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+  .header-title h1 {
+    font-size: 36px;
+  }
+
+  .team-description ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .team-description ul > li img {
+    width: 200px;
+    padding-bottom: 0.3rem;
+  }
+
+  .choose-us ul {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+
+  .blog-news ul {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .blog-news ul .item {
+    width: 80%;
+    margin: auto;
+  }
+}

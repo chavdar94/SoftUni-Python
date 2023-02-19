@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+  background-image: url(./images/background.png);
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/form-background.png);
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 830px;
+  height: 600px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  gap: 20px;
+  margin-top: 48px;
+  margin-left: 36px;
+}
+
+.inner-flex > h1 {
+  text-align: center;
+}
+
+.inner-flex .inner-first-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "first last"
+    "first-input second-input";
+  column-gap: 12px;
+}
+
+.first-name-text {
+  grid-area: first;
+}
+
+.last-name-text {
+  grid-area: last;
+}
+
+.first-name {
+  grid-area: first-input;
+}
+
+.last-name {
+  grid-area: second-input;
+}
+
+.inner-flex .inner-first-row .first-name,
+.inner-flex .inner-first-row .last-name {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  margin-top: 6px;
+  padding-left: 12px;
+}
+
+.form {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgray;
+  padding-left: 12px;
+}
+
+.check-box {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.button {
+  background-color: #be2224;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.label {
+  font-weight: lighter;
+}

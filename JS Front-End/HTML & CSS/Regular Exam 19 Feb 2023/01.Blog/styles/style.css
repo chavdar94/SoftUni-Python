@@ -1,0 +1,71 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+  /* height: 100vh; */
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8e4b3;
+}
+
+.main {
+  max-width: 800px;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.images .image {
+  width: 280px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 1px 3px 10px black;
+}
+
+.images .image img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.images .desc {
+  background-color: #6b505d;
+  height: 26px;
+  width: 280px;
+  color: white;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-top: 2px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  bottom: -1px;
+}
+
+aside {
+  margin-top: 18px;
+}
+.side-list {
+  height: 412px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.side-list li i {
+  margin-right: 6px;
+}
