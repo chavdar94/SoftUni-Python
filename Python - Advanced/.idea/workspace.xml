@@ -19,6 +19,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="46025785-6dc5-4327-9229-c4907920987d" />
+        <option name="url" value="https://github.com/chavdar94/SoftUni.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/choko/Desktop/SoftUni/Python - Advanced",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -108,6 +121,8 @@
       <workItem from="1676458751108" duration="45000" />
       <workItem from="1676458804353" duration="44000" />
       <workItem from="1676459429267" duration="53000" />
+      <workItem from="1676813535930" duration="61000" />
+      <workItem from="1676813610067" duration="25000" />
     </task>
     <servers />
   </component>
